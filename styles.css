@@ -33,10 +33,9 @@ body {
     min-height: 100vh;
 }
 header {
-    margin: 3rem auto; 
-    margin-top: 10vh;
+    margin: 0 auto; 
     padding: 1rem;
-    max-width: 500px;
+    max-width: 600px;
 }
 header h1 {
     display: flex;
@@ -44,7 +43,7 @@ header h1 {
     align-items: center;
     justify-content: center;
     font-weight: var(--Weights-200);
-    font-size: 1.6rem;
+    font-size: calc(15px + 2vw);
     color: var(--Very-Dark-Blue);
 }
 .bold, h2 {
@@ -53,9 +52,12 @@ header h1 {
 header p {
     text-align: center;
     color: var(--Grayish-Blue);
+    font-size: calc(15px + 0.15vw);
+    margin-top: 2vh;
 }
 .card {
     margin: 2rem;
+    margin-top: 0;
     padding: 1rem 2rem;
     background-color: white;
     display: flex;
@@ -101,4 +103,5 @@ main {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 5rem;
 }
